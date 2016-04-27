@@ -6,7 +6,7 @@ How to Run:
   This program is very simple to run, as the computer does most of the work. The only crucial user input is the team selection. It expects the user to spell the team name correctly (a list of the team names is printed before asking for the team selection). Other than this, the only other user inputs are just selecting what the user would like to do with the program. 
 
 Dependencies:
-	There are no dependencies for this program. All libraries used are standard, and included in the code. 
+	All libraries used are standard in Code Blocks, and included in the code. 
 
 System Requirements:
 	There are no system requirements for this program. 
