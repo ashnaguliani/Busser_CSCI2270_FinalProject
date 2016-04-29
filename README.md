@@ -12,7 +12,7 @@ System Requirements:
 	There are no system requirements for this program. 
 
 Group Members: 
-  I worked on this project by myself. 
+	Sam Busser 
 
 Contributors: 
 	None. 
