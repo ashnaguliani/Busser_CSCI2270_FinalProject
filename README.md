@@ -15,7 +15,7 @@ Group Members:
 	Sam Busser 
 
 Contributors: 
-	None. 
+	Jonah Jacobsen
 
 Open Issues/bugs:
 	None known to me at the time. 
