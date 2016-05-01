@@ -40,9 +40,11 @@ int main()
 			}
 		}
 		if(exit == true){
-			cout << "Cya" << endl;
+			cout << "Goodbye" << endl;
 			break;
 		}
+		cout<<"If at anytime you would like to quit, just press q."<<endl;
+ 		cout<<endl;
 		cout<<"To start, please select a team."<<endl;
 		string lineTeam;
 		ifstream fileTeam("TeamList.txt");    //reading in text file of teams, displaying the teams to the user
@@ -69,7 +71,7 @@ int main()
 			}
 		}
 		if(exit == true){
-			cout << "Cya" << endl;
+			cout << "Goodbye" << endl;
 			break;
 		}
 
@@ -99,7 +101,7 @@ int main()
 			}
 		}
 		if(exit == true){
-			cout << "Cya" << endl;
+			cout << "Goodbye" << endl;
 			break;
 		}
 
@@ -118,6 +120,7 @@ int main()
 				cout<<"Thanks for playing!"<<endl;
 				cout<<"Goodbye"<<endl;
 				finalKeepGoing = false;
+				exit = true;
 			}
 			else if(finalChoice == "1"){
 				Sam.viewYourTeam(chosenTeam);
@@ -142,7 +145,7 @@ int main()
 
 			}
 			else if(finalChoice == "q"){
-				cout << "Cya" << endl;
+				cout << "Goodbye" << endl;
 				exit = true;
 				finalKeepGoing = false;
 			}
